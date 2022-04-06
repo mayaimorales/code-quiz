@@ -5,7 +5,37 @@
 
 }
 
+h1{
+    text-align: center;
+}
+
 body {
     background-color: var(--dark);
     color: var(--pink)
+}
+
+.start-button, .start-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.start-button button {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--pink);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-menu {
+    width: 540px;
+    background: var(--white);
+    border-radius: 5px;
+    text-align: center;
 }
