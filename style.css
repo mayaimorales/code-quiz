@@ -1,0 +1,11 @@
+:root {
+    --dark: #13293d;
+    --pink: deepPink;
+    --white: white;
+
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--pink)
+}
