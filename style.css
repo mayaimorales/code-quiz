@@ -7,6 +7,8 @@
 
 h1{
     text-align: center;
+    font-family: Chakra Petch, sans-serif;
+    font-size: 70px;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
     color: var(--pink)
 }
 
-.start-button, .start-menu {
+.start-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,8 +36,13 @@ body {
 }
 
 .start-menu {
+    position: relative;
+    top: 50%;
+    left: 30%;
     width: 540px;
+    height: 100px;
     background: var(--white);
     border-radius: 5px;
     text-align: center;
+    font-family: Chakra Petch, sans-serif;
 }
