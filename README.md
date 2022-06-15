@@ -1,4 +1,4 @@
-# CODE QUIZ PROJECT
+# Code Quiz
 
 ## Table of Contents 📖
 
